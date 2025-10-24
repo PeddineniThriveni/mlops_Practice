@@ -1,0 +1,6 @@
+#ignoring virtual environment
+venv/
+#Ignore dvc cache
+.dvc/cache/
+*.dvc.lock
+.cach
