@@ -3,7 +3,8 @@ import certifi
 ssl._create_default_https_context = lambda:ssl.create_default_context(cafile=certifi.where())
 import pandas as pd
 from sklearn.datasets import fetch_california_housing
-import os
+import os,math
+
 
 def load_and_save_data():
     # Create folder if not exists
